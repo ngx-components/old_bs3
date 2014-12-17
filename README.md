@@ -20,15 +20,8 @@ No clue what the `ngx` command line tool is? Learn more about [AngularJS Express
 
 After installing the component, you can edit:
  
-- [`_build/_bootstrap.less`](ngx/_build/_bootstrap.less) to select the Bootstrap 3 components you wish to include in your CSS
+- [`_build/bootstrap.less`](ngx/_build/bootstrap.less) to select the Bootstrap 3 components you wish to include in your CSS
 - [`_build/_variables.less`](ngx/_build/_variables.less) to customize the Bootstrap 3 variables to your needs
-
-Finally, include `_bootstrap.less` in your main `app.less` file like this:
-
-```less
-# Use the path to your custom bootstrap component
-@import "../components/bs3/_build/_bootstrap";
-```
 
 ## License
 
