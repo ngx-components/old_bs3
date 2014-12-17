@@ -1,12 +1,20 @@
+//
 // STEP 1:
 // update @bs3-less-directory with the location
 // of your Bootstrap 3 less directory
-@bs3-less-directory = "../../../bower_components/bootstrap/less";
-
+//
 // STEP 2:
 // Comment out all Bootstrap 3 components that you don't need
 
+// Specify your Bootstrap 3 less directory here
+@bs3-less-directory: "../../../../bower_components/bootstrap/less";
+
+// Import custom variables
 @import "_variables.less";
+
+// Comment out all Bootstrap 3 components below that you don't need
+
+// Mixins
 @import "@{bs3-less-directory}/mixins.less";
 
 // Reset and dependencies
