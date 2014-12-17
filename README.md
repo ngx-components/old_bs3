@@ -11,7 +11,7 @@ It lets you select the Bootstrap 3 components you wish to include to prevent unn
 First install Bootstrap 3 using bower:
 
 ```bash
-$ bower install bootstrap
+$ bower install bootstrap --save
 ```
 
 Then install the component:
