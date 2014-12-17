@@ -8,7 +8,13 @@ It lets you select the Bootstrap 3 components you wish to include to prevent unn
 
 ## Installation
 
-To install the component:
+First install Bootstrap 3 using bower:
+
+```bash
+$ bower install bootstrap
+```
+
+Then install the component:
 
 ```bash
 $ ngx install bs3
